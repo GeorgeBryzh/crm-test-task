@@ -116,9 +116,15 @@ h6 {
 }
 @media screen and (max-width: 768px) {
   .customers__card_headline {
-    color: var(--headline-text-color);
     font-size: 1rem;
-    line-height: normal;
     letter-spacing: -0.2rem;
   }
+}
+
+.customers__card_subheadline {
+  color: var(--active-first-color);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.00875rem;
 }/*# sourceMappingURL=style.css.map */
