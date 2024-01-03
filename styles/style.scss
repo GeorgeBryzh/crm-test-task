@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root{
+    --headline-text-color: hsl(0, 0%, 0%);
+    --table-text-color: hsla(213, 10%, 18%, 1);
+    --light-gray-color: rgb(255, 255, 255);
+    --active-first-color: hsla(166, 79%, 42%, 1);
+    --active-second-color: hsla(166, 79%, 42%, 0.38);
+    --inactive-first-color: hsla(0, 97%, 44%, 1);
+    --inactive-second-color: hsl(0, 100%, 89%);
+    --white-color: hsl(0, 0%, 100%);
+    --background-color: hsl(228, 100%, 99%);
+    --pagination-background-color: hsl(0, 0%, 96%);
+    --pagination-active-background-color: hsl(253, 81%, 56%);
+    --pagination-text-color: hsla(202, 12%, 29%, 1);
+    --input-background-color: hsla(220, 100%, 99%, 1);
+    --input-text-color: hsla(229, 8%, 73%, 1);
+    --user-position-text-color: hsla(0, 0%, 46%, 1);
+    --active-place-color: hsla(253, 81%, 56%, 1);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,
+:active {
+    outline: none;
+}
+a:focus,
+a:active {
+    outline: none;
+}
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    // for-project
+    font-family: Poppins;
+    font-size: 16px;
+}
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+input::-ms-clear {
+    display: none;
+}
+button {
+cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+
+.customers__card_headline{
+    color: var(--headline-text-color);
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.01375rem;
+
+    @media screen and (max-width: 768px) {
+        color: var(--headline-text-color);
+        font-size: 1rem;
+        line-height: normal;
+        letter-spacing: -0.2rem;
+    }
+}
